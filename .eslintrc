@@ -1,0 +1,11 @@
+{
+	"extends": ["airbnb"],
+	"browser": true,
+	"node": true,
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": "off",
+		"import/no-extraneous-dependencies": ["error", {"devDependencies": ["webpack.js"]}],
+		"react/jsx-indent": [2, "tab"]
+	}
+}

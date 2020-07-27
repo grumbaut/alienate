@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Alienate",
+	"description": "Block social media during set times for better productivity.",
+	"version": "1.0",
+	"author": "Gabriel Rumbaut",
+	"permissions": [
+		"activeTab"
+	],
+	"browser_action": {
+		"default_title": "Alienate",
+		"default_popup": "popup/index.html"
+	}
+}
